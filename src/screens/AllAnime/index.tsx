@@ -23,7 +23,7 @@ const AllAnime: React.FC<Props> = ({ navigation }) => {
 
       const response = await fetchAllAnime(pageNum);
       if (response.ok) {
-        const pagination = response.data.pagination;
+        const pagination = response.pagination;
         console.log('Pagination info:', pagination);
 
         const newData = response.data.animeList?.map((anime: any, index: number) => ({
@@ -42,7 +42,6 @@ const AllAnime: React.FC<Props> = ({ navigation }) => {
         console.log('Current page:', pagination?.currentPage);
         console.log('Has next page:', pagination?.hasNextPage);
         console.log('Total pages:', pagination?.totalPages);
-        console.log('Total items loaded:', append ? animeList.length + newData.length : newData.length);
       } else {
         setError('Gagal memuat daftar anime');
       }
@@ -56,11 +55,8 @@ const AllAnime: React.FC<Props> = ({ navigation }) => {
   }, []);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      loadAnimeList();
-    }, 0);
-    return () => clearTimeout(timer);
-  }, []);
+    loadAnimeList(1, false);
+  }, [loadAnimeList]);
 
   const handleLoadMore = useCallback(() => {
     console.log('handleLoadMore called');
