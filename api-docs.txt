@@ -1,0 +1,3042 @@
+/// Dokumentasi API Endpoints dan Response Structure
+/// Base URL: https://apis.enowdev.site/otakudesu
+
+/*
+Get : /otakudesu/home
+Response:
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "ongoing": {
+      "href": "/otakudesu/ongoing",
+      "otakudesuUrl": "https://otakudesu.cloud/ongoing-anime/",
+      "animeList": [
+        {
+          "title": "Shangri-La Frontier Season 2",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Shangri-La-Frontier-Season-2.jpg",
+          "episodes": 13,
+          "releaseDay": "Minggu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "shangri-frontier-s2-sub-indo",
+          "href": "/otakudesu/anime/shangri-frontier-s2-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/shangri-frontier-s2-sub-indo/"
+        },
+        {
+          "title": "Fairy Tail: 100-nen Quest",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/07/144083.jpg",
+          "episodes": 25,
+          "releaseDay": "Minggu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "fairy-tail-100-quest-sub-indo",
+          "href": "/otakudesu/anime/fairy-tail-100-quest-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/fairy-tail-100-quest-sub-indo/"
+        },
+        {
+          "title": "Okinawa de Suki ni Natta Ko ga Hougen Sugite Tsurasugiru",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146843.jpg",
+          "episodes": 1,
+          "releaseDay": "Minggu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "okitsura-sub-indo",
+          "href": "/otakudesu/anime/okitsura-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/okitsura-sub-indo/"
+        },
+        {
+          "title": "Solo Leveling Season 2",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/145502.jpg",
+          "episodes": 1,
+          "releaseDay": "Minggu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "solo-level-s2-sub-indo",
+          "href": "/otakudesu/anime/solo-level-s2-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/solo-level-s2-sub-indo/"
+        },
+        {
+          "title": "Medalist",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146850.jpg",
+          "episodes": 1,
+          "releaseDay": "Minggu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "medalist-sub-indo",
+          "href": "/otakudesu/anime/medalist-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/medalist-sub-indo/"
+        },
+        {
+          "title": "Ao no Exorcist: Yosuga-hen",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/147040.jpg",
+          "episodes": 1,
+          "releaseDay": "Minggu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "ao-exorcist-yosuga-sub-indo",
+          "href": "/otakudesu/anime/ao-exorcist-yosuga-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/ao-exorcist-yosuga-sub-indo/"
+        },
+        {
+          "title": "Chi.: Chikyuu no Undou ni Tsuite",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Chi-Chikyuu-no-Undou-ni-Tsuite.jpg",
+          "episodes": 15,
+          "releaseDay": "Minggu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "chi-chikyuu-tsuite-sub-indo",
+          "href": "/otakudesu/anime/chi-chikyuu-tsuite-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/chi-chikyuu-tsuite-sub-indo/"
+        },
+        {
+          "title": "Momentary Lily",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/143656.jpg",
+          "episodes": 1,
+          "releaseDay": "Sabtu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "momentary-lily-sub-indo",
+          "href": "/otakudesu/anime/momentary-lily-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/momentary-lily-sub-indo/"
+        },
+        {
+          "title": "S-Rank Monster no \"Behemoth\" dakedo",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/146916l.jpg",
+          "episodes": 2,
+          "releaseDay": "Sabtu",
+          "latestReleaseDate": "05 Jan",
+          "animeId": "s-rank-monster-behemoth-sub-indo",
+          "href": "/otakudesu/anime/s-rank-monster-behemoth-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/s-rank-monster-behemoth-sub-indo/"
+        },
+        {
+          "title": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/143713l.jpg",
+          "episodes": 1,
+          "releaseDay": "Sabtu",
+          "latestReleaseDate": "04 Jan",
+          "animeId": "class-daikirai-joshi-to-kekkon-sub-indo",
+          "href": "/otakudesu/anime/class-daikirai-joshi-to-kekkon-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/class-daikirai-joshi-to-kekkon-sub-indo/"
+        },
+        {
+          "title": "Ao no Hako",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Ao-no-Hako.jpg",
+          "episodes": 14,
+          "releaseDay": "Jumat",
+          "latestReleaseDate": "03 Jan",
+          "animeId": "ao-hako-sub-indo",
+          "href": "/otakudesu/anime/ao-hako-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/ao-hako-sub-indo/"
+        },
+        {
+          "title": "BanG Dream! Ave Mujica",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146762.jpg",
+          "episodes": 1,
+          "releaseDay": "Jumat",
+          "latestReleaseDate": "03 Jan",
+          "animeId": "bang-dream-ave-mujica-sub-indo",
+          "href": "/otakudesu/anime/bang-dream-ave-mujica-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/bang-dream-ave-mujica-sub-indo/"
+        },
+        {
+          "title": "Ameku Takao no Suiri Karte",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Ameku-Takao-no-Suiri-Karte.jpg",
+          "episodes": 2,
+          "releaseDay": "Kamis",
+          "latestReleaseDate": "02 Jan",
+          "animeId": "ameku-karte-sub-indo",
+          "href": "/otakudesu/anime/ameku-karte-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/ameku-karte-sub-indo/"
+        },
+        {
+          "title": "Grisaia: Phantom Trigger",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/142188.jpg",
+          "episodes": 1,
+          "releaseDay": "Kamis",
+          "latestReleaseDate": "02 Jan",
+          "animeId": "grisaia-phantom-trigger-sub-indo",
+          "href": "/otakudesu/anime/grisaia-phantom-trigger-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/grisaia-phantom-trigger-sub-indo/"
+        },
+        {
+          "title": "Izure Saikyou no Renkinjutsushi?",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146222.jpg",
+          "episodes": 1,
+          "releaseDay": "Kamis",
+          "latestReleaseDate": "02 Jan",
+          "animeId": "izure-saikysushi-sub-indo",
+          "href": "/otakudesu/anime/izure-saikysushi-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/izure-saikysushi-sub-indo/"
+        }
+      ]
+    },
+    "completed": {
+      "href": "/otakudesu/completed",
+      "otakudesuUrl": "https://otakudesu.cloud/complete-anime/",
+      "animeList": [
+        {
+          "title": "Saikyou no Shienshoku \"Wajutsushi\" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Wajutsushi-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "7.63",
+          "lastReleaseDate": "03 Jan",
+          "animeId": "saikyou-shieshoku-sub-indo",
+          "href": "/otakudesu/anime/saikyou-shieshoku-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/saikyou-shieshoku-sub-indo/"
+        },
+        {
+          "title": "Tsuma, Shougakusei ni Naru.",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Tsuma-Shougakusei-ni-Naru-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "7.50",
+          "lastReleaseDate": "02 Jan",
+          "animeId": "tsumasho-sub-indo",
+          "href": "/otakudesu/anime/tsumasho-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/tsumasho-sub-indo/"
+        },
+        {
+          "title": "Dandadan",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Dandadan-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "8.64",
+          "lastReleaseDate": "02 Jan",
+          "animeId": "dandan-sub-indo",
+          "href": "/otakudesu/anime/dandan-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/dandan-sub-indo/"
+        },
+        {
+          "title": "Sayounara Ryuusei, Konnichiwa Jinsei",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Sayounara-Ryuusei-Konnichiwa-Jinsei-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "6.36",
+          "lastReleaseDate": "02 Jan",
+          "animeId": "sayuseijinsei-sub-indo",
+          "href": "/otakudesu/anime/sayuseijinsei-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/sayuseijinsei-sub-indo/"
+        },
+        {
+          "title": "Acro Trip",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Acro-Trip-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "6.77",
+          "lastReleaseDate": "28 Des",
+          "animeId": "acrotrip-sub-indo",
+          "href": "/otakudesu/anime/acrotrip-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/acrotrip-sub-indo/"
+        },
+        {
+          "title": "Kekkon suru tte, Hontou desu ka",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Kekkon-suru-tte-Hontou-desu-ka-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "7.13",
+          "lastReleaseDate": "25 Des",
+          "animeId": "kekkon-hontou-desu-ka-sub-indo",
+          "href": "/otakudesu/anime/kekkon-hontou-desu-ka-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/kekkon-hontou-desu-ka-sub-indo/"
+        },
+        {
+          "title": "Hitoribocchi no Isekai Kouryaku",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Hitoribocchi-no-Isekai-Kouryaku-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "6.57",
+          "lastReleaseDate": "24 Des",
+          "animeId": "hitoribocchi-isekai-kyaku-sub-indo",
+          "href": "/otakudesu/anime/hitoribocchi-isekai-kyaku-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/hitoribocchi-isekai-kyaku-sub-indo/"
+        },
+        {
+          "title": "Maou-sama, Retry! Season 2",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Maou-sama-Retry-Season-2-Sub-Indo.jpg",
+          "episodes": 12,
+          "score": "5.86",
+          "lastReleaseDate": "22 Des",
+          "animeId": "maou-retry-r-sub-indo",
+          "href": "/otakudesu/anime/maou-retry-r-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/maou-retry-r-sub-indo/"
+        },
+        {
+          "title": "Isekai Suicide Squad",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Isekai-Suicide-Squad-Sub-Indo.jpg",
+          "episodes": 10,
+          "score": "6.48",
+          "lastReleaseDate": "21 Des",
+          "animeId": "isekai-squad-sub-indo",
+          "href": "/otakudesu/anime/isekai-squad-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/isekai-squad-sub-indo/"
+        },
+        {
+          "title": "Jiisan Baasan Wakagaeru",
+          "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Jiisan-Baasan-Wakagaeru-Sub-Indo.jpg",
+          "episodes": 11,
+          "score": "7.48",
+          "lastReleaseDate": "20 Des",
+          "animeId": "jiisan-baasan-sub-indo",
+          "href": "/otakudesu/anime/jiisan-baasan-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/anime/jiisan-baasan-sub-indo/"
+        }
+      ]
+    }
+  },
+  "pagination": null
+}
+
+Get : /otakudesu/schedule
+Response:
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "days": [
+      {
+        "day": "Senin",
+        "animeList": [
+          {
+            "title": "Arifureta Shokugyou de Sekai Saikyou Season 3",
+            "animeId": "arifureta-s3-sub-indo",
+            "href": "/otakudesu/anime/arifureta-s3-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/arifureta-s3-sub-indo/"
+          },
+          {
+            "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+            "animeId": "goukon-itara-hanashi-sub-indo",
+            "href": "/otakudesu/anime/goukon-itara-hanashi-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/goukon-itara-hanashi-sub-indo/"
+          },
+          {
+            "title": "Hoshifuru Oukoku no Nina",
+            "animeId": "hoshifuru-nina-sub-indo",
+            "href": "/otakudesu/anime/hoshifuru-nina-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/hoshifuru-nina-sub-indo/"
+          },
+          {
+            "title": "Kami wa Game ni Ueteiru.",
+            "animeId": "kami-game-ueteiru-sub-indo",
+            "href": "/otakudesu/anime/kami-game-ueteiru-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/kami-game-ueteiru-sub-indo/"
+          },
+          {
+            "title": "Love Live! Superstar!! Season 3",
+            "animeId": "love-superstar-s3-sub-indo",
+            "href": "/otakudesu/anime/love-superstar-s3-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/love-superstar-s3-sub-indo/"
+          },
+          {
+            "title": "MF Ghost Season 2",
+            "animeId": "mf-ghst-s2-sub-indo",
+            "href": "/otakudesu/anime/mf-ghst-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/mf-ghst-s2-sub-indo/"
+          },
+          {
+            "title": "Nageki no Bourei wa Intai shitai",
+            "animeId": "nageki-bourei-intai-shitai-sub-indo",
+            "href": "/otakudesu/anime/nageki-bourei-intai-shitai-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/nageki-bourei-intai-shitai-sub-indo/"
+          },
+          {
+            "title": "Tensei Kizoku, Kantei Skill de Nariagaru S2",
+            "animeId": "tensei-skill-nariagaru-s2-sub-indo",
+            "href": "/otakudesu/anime/tensei-skill-nariagaru-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/tensei-skill-nariagaru-s2-sub-indo/"
+          },
+          {
+            "title": "The iDOLM@STER Shiny Colors Season 2",
+            "animeId": "the-imas-shiny-colors-s2-sub-indo",
+            "href": "/otakudesu/anime/the-imas-shiny-colors-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/the-imas-shiny-colors-s2-sub-indo/"
+          }
+        ]
+      },
+      {
+        "day": "Selasa",
+        "animeList": [
+          {
+            "title": "Fate/strange Fake",
+            "animeId": "fate-fake-whisper-sub-indo",
+            "href": "/otakudesu/anime/fate-fake-whisper-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/fate-fake-whisper-sub-indo/"
+          },
+          {
+            "title": "Kamonohashi Ron no Kindan Suiri Season 2",
+            "animeId": "kamonohashi-suiri-s2-sub-indo",
+            "href": "/otakudesu/anime/kamonohashi-suiri-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/kamonohashi-suiri-s2-sub-indo/"
+          },
+          {
+            "title": "Natsume Yuujinchou Season 7",
+            "animeId": "ntsume-yujinchou-s7-sub-indo",
+            "href": "/otakudesu/anime/ntsume-yujinchou-s7-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/ntsume-yujinchou-s7-sub-indo/"
+          },
+          {
+            "title": "Raise wa Tanin ga Ii",
+            "animeId": "raitanin-ga-ii-sub-indo",
+            "href": "/otakudesu/anime/raitanin-ga-ii-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/raitanin-ga-ii-sub-indo/"
+          },
+          {
+            "title": "Rekishi ni Nokoru Akujo ni Naru zo",
+            "animeId": "rekishi-nokoru-naru-sub-indo",
+            "href": "/otakudesu/anime/rekishi-nokoru-naru-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/rekishi-nokoru-naru-sub-indo/"
+          },
+          {
+            "title": "Seirei Gensouki Season 2",
+            "animeId": "seireig-s2-sub-indo",
+            "href": "/otakudesu/anime/seireig-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/seireig-s2-sub-indo/"
+          },
+          {
+            "title": "Youkai Gakkou no Sensei Hajimemashita!",
+            "animeId": "yokai-sensei-hajmeshita-sub-indo",
+            "href": "/otakudesu/anime/yokai-sensei-hajmeshita-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/yokai-sensei-hajmeshita-sub-indo/"
+          }
+        ]
+      },
+      {
+        "day": "Rabu",
+        "animeList": [
+          {
+            "title": "Amagami-san Chi no Enmusubi",
+            "animeId": "amagami-chi-sub-indo",
+            "href": "/otakudesu/anime/amagami-chi-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/amagami-chi-sub-indo/"
+          },
+          {
+            "title": "Hazure Skill \"Kinomi Master\"",
+            "animeId": "kinomi-master-sub-indo",
+            "href": "/otakudesu/anime/kinomi-master-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/kinomi-master-sub-indo/"
+          },
+          {
+            "title": "Kimisen Season 2",
+            "animeId": "kimi-boku-saigo-senjou-s2-sub-indo",
+            "href": "/otakudesu/anime/kimi-boku-saigo-senjou-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/kimi-boku-saigo-senjou-s2-sub-indo/"
+          },
+          {
+            "title": "Re:Zero kara Hajimeru Isekai Seikatsu Season 3",
+            "animeId": "re-zero-s3-sub-indo",
+            "href": "/otakudesu/anime/re-zero-s3-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/re-zero-s3-sub-indo/"
+          },
+          {
+            "title": "Tasuuketsu",
+            "animeId": "tasuketsu-sub-indo",
+            "href": "/otakudesu/anime/tasuketsu-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/tasuketsu-sub-indo/"
+          }
+        ]
+      },
+      {
+        "day": "Kamis",
+        "animeList": [
+          {
+            "title": "Ameku Takao no Suiri Karte",
+            "animeId": "ameku-karte-sub-indo",
+            "href": "/otakudesu/anime/ameku-karte-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/ameku-karte-sub-indo/"
+          },
+          {
+            "title": "DanMachi Season 5",
+            "animeId": "dnmaci-season-5-sub-indo",
+            "href": "/otakudesu/anime/dnmaci-season-5-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/dnmaci-season-5-sub-indo/"
+          },
+          {
+            "title": "Delico's Nursery",
+            "animeId": "delic-nursery-sub-indo",
+            "href": "/otakudesu/anime/delic-nursery-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/delic-nursery-sub-indo/"
+          },
+          {
+            "title": "Grisaia: Phantom Trigger",
+            "animeId": "grisaia-phantom-trigger-sub-indo",
+            "href": "/otakudesu/anime/grisaia-phantom-trigger-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/grisaia-phantom-trigger-sub-indo/"
+          },
+          {
+            "title": "Izure Saikyou no Renkinjutsushi?",
+            "animeId": "izure-saikysushi-sub-indo",
+            "href": "/otakudesu/anime/izure-saikysushi-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/izure-saikysushi-sub-indo/"
+          },
+          {
+            "title": "Kinoko Inu",
+            "animeId": "knko-inu-sub-indo",
+            "href": "/otakudesu/anime/knko-inu-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/knko-inu-sub-indo/"
+          },
+          {
+            "title": "NegaPosi Angler",
+            "animeId": "nega-angler-sub-indo",
+            "href": "/otakudesu/anime/nega-angler-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/nega-angler-sub-indo/"
+          },
+          {
+            "title": "Salaryman ga Isekai ni Ittara Shitennou ni Natta Hanashi",
+            "animeId": "salaryman-isekai-sub-indo",
+            "href": "/otakudesu/anime/salaryman-isekai-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/salaryman-isekai-sub-indo/"
+          },
+          {
+            "title": "Sengoku Youko: Senma Konton-hen",
+            "animeId": "sengoku-youko-s2-sub-indo",
+            "href": "/otakudesu/anime/sengoku-youko-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/sengoku-youko-s2-sub-indo/"
+          },
+          {
+            "title": "Shin Tennis no Oujisama: U-17 World Cup Semifinal",
+            "animeId": "tennis-world-cup-sub-indo",
+            "href": "/otakudesu/anime/tennis-world-cup-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/tennis-world-cup-sub-indo/"
+          },
+          {
+            "title": "Touhai: Ura Rate Mahjong Touhai Roku",
+            "animeId": "touharate-mahjong-sub-indo",
+            "href": "/otakudesu/anime/touharate-mahjong-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/touharate-mahjong-sub-indo/"
+          },
+          {
+            "title": "Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu",
+            "animeId": "yarjou-ryuchu-sub-indo",
+            "href": "/otakudesu/anime/yarjou-ryuchu-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/yarjou-ryuchu-sub-indo/"
+          }
+        ]
+      },
+      {
+        "day": "Jumat",
+        "animeList": [
+          {
+            "title": "2.5-jigen no Ririsa",
+            "animeId": "2-5-jigen-sub-indo",
+            "href": "/otakudesu/anime/2-5-jigen-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/2-5-jigen-sub-indo/"
+          },
+          {
+            "title": "Ao no Hako",
+            "animeId": "ao-hako-sub-indo",
+            "href": "/otakudesu/anime/ao-hako-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/ao-hako-sub-indo/"
+          },
+          {
+            "title": "BanG Dream! Ave Mujica",
+            "animeId": "bang-dream-ave-mujica-sub-indo",
+            "href": "/otakudesu/anime/bang-dream-ave-mujica-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/bang-dream-ave-mujica-sub-indo/"
+          },
+          {
+            "title": "Mecha-ude (TV)",
+            "animeId": "meca-ude-sub-indo",
+            "href": "/otakudesu/anime/meca-ude-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/meca-ude-sub-indo/"
+          },
+          {
+            "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran",
+            "animeId": "rurouni-kenshin-s2-sub-indo",
+            "href": "/otakudesu/anime/rurouni-kenshin-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/rurouni-kenshin-s2-sub-indo/"
+          },
+          {
+            "title": "Senpai wa Otokonoko",
+            "animeId": "senpai-otokonoko-sub-indo",
+            "href": "/otakudesu/anime/senpai-otokonoko-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/senpai-otokonoko-sub-indo/"
+          },
+          {
+            "title": "Trillion Game",
+            "animeId": "trilion-game-sub-indo",
+            "href": "/otakudesu/anime/trilion-game-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/trilion-game-sub-indo/"
+          }
+        ]
+      },
+      {
+        "day": "Sabtu",
+        "animeList": [
+          {
+            "title": "Astro Note",
+            "animeId": "astro-n-sub-indo",
+            "href": "/otakudesu/anime/astro-n-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/astro-n-sub-indo/"
+          },
+          {
+            "title": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
+            "animeId": "class-daikirai-joshi-to-kekkon-sub-indo",
+            "href": "/otakudesu/anime/class-daikirai-joshi-to-kekkon-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/class-daikirai-joshi-to-kekkon-sub-indo/"
+          },
+          {
+            "title": "Kabushikigaisha Magi-Lumière",
+            "animeId": "kabushikigaisha-lumiere-sub-indo",
+            "href": "/otakudesu/anime/kabushikigaisha-lumiere-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/kabushikigaisha-lumiere-sub-indo/"
+          },
+          {
+            "title": "Momentary Lily",
+            "animeId": "momentary-lily-sub-indo",
+            "href": "/otakudesu/anime/momentary-lily-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/momentary-lily-sub-indo/"
+          },
+          {
+            "title": "S-Rank Monster no \"Behemoth\" dakedo",
+            "animeId": "s-rank-monster-behemoth-sub-indo",
+            "href": "/otakudesu/anime/s-rank-monster-behemoth-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/s-rank-monster-behemoth-sub-indo/"
+          },
+          {
+            "title": "Sword Art Online Alternative: Gun Gale Online S2",
+            "animeId": "sao-alternative-online-s2-sub-indo",
+            "href": "/otakudesu/anime/sao-alternative-online-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/sao-alternative-online-s2-sub-indo/"
+          }
+        ]
+      },
+      {
+        "day": "Minggu",
+        "animeList": [
+          {
+            "title": "Ao no Exorcist: Yosuga-hen",
+            "animeId": "ao-exorcist-yosuga-sub-indo",
+            "href": "/otakudesu/anime/ao-exorcist-yosuga-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/ao-exorcist-yosuga-sub-indo/"
+          },
+          {
+            "title": "Ao no Exorcist: Yuki no Hate-hen",
+            "animeId": "aoexocist-yuki-hen-sub-indo",
+            "href": "/otakudesu/anime/aoexocist-yuki-hen-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/aoexocist-yuki-hen-sub-indo/"
+          },
+          {
+            "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+            "animeId": "bleach-oukoku-tan-sub-indo",
+            "href": "/otakudesu/anime/bleach-oukoku-tan-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/bleach-oukoku-tan-sub-indo/"
+          },
+          {
+            "title": "Blue Lock Season 2",
+            "animeId": "blelock-s2-sub-indo",
+            "href": "/otakudesu/anime/blelock-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/blelock-s2-sub-indo/"
+          },
+          {
+            "title": "Chi.: Chikyuu no Undou ni Tsuite",
+            "animeId": "chi-chikyuu-tsuite-sub-indo",
+            "href": "/otakudesu/anime/chi-chikyuu-tsuite-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/chi-chikyuu-tsuite-sub-indo/"
+          },
+          {
+            "title": "Fairy Tail: 100-nen Quest",
+            "animeId": "fairy-tail-100-quest-sub-indo",
+            "href": "/otakudesu/anime/fairy-tail-100-quest-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/fairy-tail-100-quest-sub-indo/"
+          },
+          {
+            "title": "Kimi wa Meido-sama.",
+            "animeId": "meido-sama-sub-indo",
+            "href": "/otakudesu/anime/meido-sama-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/meido-sama-sub-indo/"
+          },
+          {
+            "title": "Maou 2099",
+            "animeId": "maou-2099-sub-indo",
+            "href": "/otakudesu/anime/maou-2099-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/maou-2099-sub-indo/"
+          },
+          {
+            "title": "Medalist",
+            "animeId": "medalist-sub-indo",
+            "href": "/otakudesu/anime/medalist-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/medalist-sub-indo/"
+          },
+          {
+            "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi S2",
+            "animeId": "nanatsu-taizai-my-s2-sub-indo",
+            "href": "/otakudesu/anime/nanatsu-taizai-my-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/nanatsu-taizai-my-s2-sub-indo/"
+          },
+          {
+            "title": "One Piece",
+            "animeId": "1piece-sub-indo",
+            "href": "/otakudesu/anime/1piece-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/1piece-sub-indo/"
+          },
+          {
+            "title": "Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki",
+            "animeId": "party-kara-chyishu-sub-indo",
+            "href": "/otakudesu/anime/party-kara-chyishu-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/party-kara-chyishu-sub-indo/"
+          },
+          {
+            "title": "Ranma ½ (2024)",
+            "animeId": "ranma-2024-sub-indo",
+            "href": "/otakudesu/anime/ranma-2024-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/ranma-2024-sub-indo/"
+          },
+          {
+            "title": "Shangri-La Frontier Season 2",
+            "animeId": "shangri-frontier-s2-sub-indo",
+            "href": "/otakudesu/anime/shangri-frontier-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/shangri-frontier-s2-sub-indo/"
+          },
+          {
+            "title": "Solo Leveling Season 2",
+            "animeId": "solo-level-s2-sub-indo",
+            "href": "/otakudesu/anime/solo-level-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/solo-level-s2-sub-indo/"
+          }
+        ]
+      },
+      {
+        "day": "Random",
+        "animeList": [
+          {
+            "title": "Tonari no Youkai-san",
+            "animeId": "tonari-youkai-sub-indo",
+            "href": "/otakudesu/anime/tonari-youkai-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/tonari-youkai-sub-indo/"
+          }
+        ]
+      }
+    ]
+  },
+  "pagination": null
+}
+
+Get : /otakudesu/anime
+Response:
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "list": [
+      {
+        "startWith": "1",
+        "animeList": [
+          {
+            "title": "100-man no Inochi no Ue ni Ore wa Tatteiru",
+            "animeId": "100-man-no-inochi-sub-indo",
+            "href": "/otakudesu/anime/100-man-no-inochi-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/100-man-no-inochi-sub-indo/"
+          },
+          {
+            "title": "100-man no Inochi no Ue ni Ore wa Tatteiru Season 2",
+            "animeId": "100-man-no-inochi-s2-sub-indo",
+            "href": "/otakudesu/anime/100-man-no-inochi-s2-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/100-man-no-inochi-s2-sub-indo/"
+          },
+          {
+            "title": "11eyes",
+            "animeId": "1eye-subtitle-indonesia",
+            "href": "/otakudesu/anime/1eye-subtitle-indonesia",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/1eye-subtitle-indonesia/"
+          },
+          {
+            "title": "12-sai.: Chicchana Mune no Tokimeki",
+            "animeId": "12-sai-chicchana-mune-no-tokimeki",
+            "href": "/otakudesu/anime/12-sai-chicchana-mune-no-tokimeki",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/12-sai-chicchana-mune-no-tokimeki/"
+          },
+          {
+            "title": "16bit Sensation: Another Layer",
+            "animeId": "16bit-layer-sub-indo",
+            "href": "/otakudesu/anime/16bit-layer-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/16bit-layer-sub-indo/"
+          }
+        ]
+      },
+      {
+        "startWith": "2",
+        "animeList": [
+          {
+            "title": "2.43: Seiin Koukou Danshi Volley-bu",
+            "animeId": "seiin-koukou-danshi-volley-sub-indo",
+            "href": "/otakudesu/anime/seiin-koukou-danshi-volley-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/seiin-koukou-danshi-volley-sub-indo/"
+          },
+          {
+            "title": "2.5-jigen no Ririsa On-Going",
+            "animeId": "2-5-jigen-sub-indo",
+            "href": "/otakudesu/anime/2-5-jigen-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/2-5-jigen-sub-indo/"
+          },
+          {
+            "title": "22/7",
+            "animeId": "27-sub-indo",
+            "href": "/otakudesu/anime/27-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/27-sub-indo/"
+          }
+        ]
+      },
+      {
+        "startWith": "3",
+        "animeList": [
+          {
+            "title": "3-gatsu no Lion",
+            "animeId": "3-gatsu-lion-sub-indo",
+            "href": "/otakudesu/anime/3-gatsu-lion-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/3-gatsu-lion-sub-indo/"
+          },
+          {
+            "title": "3-gatsu no Lion Season 2",
+            "animeId": "3-gats-lion-season-2-subtitle-indonesia",
+            "href": "/otakudesu/anime/3-gats-lion-season-2-subtitle-indonesia",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/3-gats-lion-season-2-subtitle-indonesia/"
+          },
+          {
+            "title": "3D Kanojo: Real Girl",
+            "animeId": "3d-girl-kanojo-subtitle-indonesia",
+            "href": "/otakudesu/anime/3d-girl-kanojo-subtitle-indonesia",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/3d-girl-kanojo-subtitle-indonesia/"
+          },
+          {
+            "title": "3D Kanojo: Real Girl Season 2",
+            "animeId": "3d-girl-kanojo-season-2-subtitle-indonesia",
+            "href": "/otakudesu/anime/3d-girl-kanojo-season-2-subtitle-indonesia",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/3d-girl-kanojo-season-2-subtitle-indonesia/"
+          }
+        ]
+      },
+      {
+        "startWith": "4",
+        "animeList": [
+          {
+            "title": "4-nin wa Sorezore Uso wo Tsuku",
+            "animeId": "4nin-tsuku-sub-indo",
+            "href": "/otakudesu/anime/4nin-tsuku-sub-indo",
+            "otakudesuUrl": "https://otakudesu.cloud/anime/4nin-tsuku-sub-indo/"
+          }
+        ]
+      },
+      {
+        "startWith": "8",
+        "animeList": [
+          {
+            "title": "86",
+            "animeId": "86-sub-indo",
+#Note : Saya ambil sedikit karena terlalu panjang
+
+Get : /otakudesu/genres
+Response:
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "genreList": [
+      {
+        "title": "Action",
+        "genreId": "action",
+        "href": "/otakudesu/genres/action",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+      },
+      {
+        "title": "Adventure",
+        "genreId": "adventure",
+        "href": "/otakudesu/genres/adventure",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+      },
+      {
+        "title": "Comedy",
+        "genreId": "comedy",
+        "href": "/otakudesu/genres/comedy",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+      },
+      {
+        "title": "Demons",
+        "genreId": "demons",
+        "href": "/otakudesu/genres/demons",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/demons/"
+      },
+      {
+        "title": "Drama",
+        "genreId": "drama",
+        "href": "/otakudesu/genres/drama",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/drama/"
+      },
+      {
+        "title": "Ecchi",
+        "genreId": "ecchi",
+        "href": "/otakudesu/genres/ecchi",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/ecchi/"
+      },
+      {
+        "title": "Fantasy",
+        "genreId": "fantasy",
+        "href": "/otakudesu/genres/fantasy",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+      },
+      {
+        "title": "Game",
+        "genreId": "game",
+        "href": "/otakudesu/genres/game",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/game/"
+      },
+      {
+        "title": "Harem",
+        "genreId": "harem",
+        "href": "/otakudesu/genres/harem",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/harem/"
+      },
+      {
+        "title": "Historical",
+        "genreId": "historical",
+        "href": "/otakudesu/genres/historical",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/historical/"
+      },
+      {
+        "title": "Horror",
+        "genreId": "horror",
+        "href": "/otakudesu/genres/horror",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/horror/"
+      },
+      {
+        "title": "Josei",
+        "genreId": "josei",
+        "href": "/otakudesu/genres/josei",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/josei/"
+      },
+      {
+        "title": "Magic",
+        "genreId": "magic",
+        "href": "/otakudesu/genres/magic",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/magic/"
+      },
+      {
+        "title": "Martial Arts",
+        "genreId": "martial-arts",
+        "href": "/otakudesu/genres/martial-arts",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/martial-arts/"
+      },
+      {
+        "title": "Mecha",
+        "genreId": "mecha",
+        "href": "/otakudesu/genres/mecha",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/mecha/"
+      },
+      {
+        "title": "Military",
+        "genreId": "military",
+        "href": "/otakudesu/genres/military",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/military/"
+      },
+      {
+        "title": "Music",
+        "genreId": "music",
+        "href": "/otakudesu/genres/music",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/music/"
+      },
+      {
+        "title": "Mystery",
+        "genreId": "mystery",
+        "href": "/otakudesu/genres/mystery",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/mystery/"
+      },
+      {
+        "title": "Psychological",
+        "genreId": "psychological",
+        "href": "/otakudesu/genres/psychological",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/psychological/"
+      },
+      {
+        "title": "Parody",
+        "genreId": "parody",
+        "href": "/otakudesu/genres/parody",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/parody/"
+      },
+      {
+        "title": "Police",
+        "genreId": "police",
+        "href": "/otakudesu/genres/police",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/police/"
+      },
+      {
+        "title": "Romance",
+        "genreId": "romance",
+        "href": "/otakudesu/genres/romance",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/romance/"
+      },
+      {
+        "title": "Samurai",
+        "genreId": "samurai",
+        "href": "/otakudesu/genres/samurai",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/samurai/"
+      },
+      {
+        "title": "School",
+        "genreId": "school",
+        "href": "/otakudesu/genres/school",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+      },
+      {
+        "title": "Sci-Fi",
+        "genreId": "sci-fi",
+        "href": "/otakudesu/genres/sci-fi",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/sci-fi/"
+      },
+      {
+        "title": "Seinen",
+        "genreId": "seinen",
+        "href": "/otakudesu/genres/seinen",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/seinen/"
+      },
+      {
+        "title": "Shoujo",
+        "genreId": "shoujo",
+        "href": "/otakudesu/genres/shoujo",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/shoujo/"
+      },
+      {
+        "title": "Shoujo Ai",
+        "genreId": "shoujo-ai",
+        "href": "/otakudesu/genres/shoujo-ai",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/shoujo-ai/"
+      },
+      {
+        "title": "Shounen",
+        "genreId": "shounen",
+        "href": "/otakudesu/genres/shounen",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+      },
+      {
+        "title": "Slice of Life",
+        "genreId": "slice-of-life",
+        "href": "/otakudesu/genres/slice-of-life",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/slice-of-life/"
+      },
+      {
+        "title": "Sports",
+        "genreId": "sports",
+        "href": "/otakudesu/genres/sports",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/sports/"
+      },
+      {
+        "title": "Space",
+        "genreId": "space",
+        "href": "/otakudesu/genres/space",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/space/"
+      },
+      {
+        "title": "Super Power",
+        "genreId": "super-power",
+        "href": "/otakudesu/genres/super-power",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/super-power/"
+      },
+      {
+        "title": "Supernatural",
+        "genreId": "supernatural",
+        "href": "/otakudesu/genres/supernatural",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/supernatural/"
+      },
+      {
+        "title": "Thriller",
+        "genreId": "thriller",
+        "href": "/otakudesu/genres/thriller",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/thriller/"
+      },
+      {
+        "title": "Vampire",
+        "genreId": "vampire",
+        "href": "/otakudesu/genres/vampire",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/vampire/"
+      }
+    ]
+  },
+  "pagination": null
+}
+
+Get : /otakudesu/ongoing
+Response:
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "animeList": [
+      {
+        "title": "Shangri-La Frontier Season 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Shangri-La-Frontier-Season-2.jpg",
+        "episodes": 13,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "shangri-frontier-s2-sub-indo",
+        "href": "/otakudesu/anime/shangri-frontier-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/shangri-frontier-s2-sub-indo/"
+      },
+      {
+        "title": "Fairy Tail: 100-nen Quest",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/07/144083.jpg",
+        "episodes": 25,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "fairy-tail-100-quest-sub-indo",
+        "href": "/otakudesu/anime/fairy-tail-100-quest-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/fairy-tail-100-quest-sub-indo/"
+      },
+      {
+        "title": "Okinawa de Suki ni Natta Ko ga Hougen Sugite Tsurasugiru",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146843.jpg",
+        "episodes": 1,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "okitsura-sub-indo",
+        "href": "/otakudesu/anime/okitsura-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/okitsura-sub-indo/"
+      },
+      {
+        "title": "Solo Leveling Season 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/145502.jpg",
+        "episodes": 1,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "solo-level-s2-sub-indo",
+        "href": "/otakudesu/anime/solo-level-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/solo-level-s2-sub-indo/"
+      },
+      {
+        "title": "Medalist",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146850.jpg",
+        "episodes": 1,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "medalist-sub-indo",
+        "href": "/otakudesu/anime/medalist-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/medalist-sub-indo/"
+      },
+      {
+        "title": "Ao no Exorcist: Yosuga-hen",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/147040.jpg",
+        "episodes": 1,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "ao-exorcist-yosuga-sub-indo",
+        "href": "/otakudesu/anime/ao-exorcist-yosuga-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/ao-exorcist-yosuga-sub-indo/"
+      },
+      {
+        "title": "Chi.: Chikyuu no Undou ni Tsuite",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Chi-Chikyuu-no-Undou-ni-Tsuite.jpg",
+        "episodes": 15,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "chi-chikyuu-tsuite-sub-indo",
+        "href": "/otakudesu/anime/chi-chikyuu-tsuite-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/chi-chikyuu-tsuite-sub-indo/"
+      },
+      {
+        "title": "Momentary Lily",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/143656.jpg",
+        "episodes": 1,
+        "releaseDay": "Sabtu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "momentary-lily-sub-indo",
+        "href": "/otakudesu/anime/momentary-lily-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/momentary-lily-sub-indo/"
+      },
+      {
+        "title": "S-Rank Monster no \"Behemoth\" dakedo",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/146916l.jpg",
+        "episodes": 2,
+        "releaseDay": "Sabtu",
+        "latestReleaseDate": "05 Jan",
+        "animeId": "s-rank-monster-behemoth-sub-indo",
+        "href": "/otakudesu/anime/s-rank-monster-behemoth-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/s-rank-monster-behemoth-sub-indo/"
+      },
+      {
+        "title": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/143713l.jpg",
+        "episodes": 1,
+        "releaseDay": "Sabtu",
+        "latestReleaseDate": "04 Jan",
+        "animeId": "class-daikirai-joshi-to-kekkon-sub-indo",
+        "href": "/otakudesu/anime/class-daikirai-joshi-to-kekkon-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/class-daikirai-joshi-to-kekkon-sub-indo/"
+      },
+      {
+        "title": "Ao no Hako",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Ao-no-Hako.jpg",
+        "episodes": 14,
+        "releaseDay": "Jumat",
+        "latestReleaseDate": "03 Jan",
+        "animeId": "ao-hako-sub-indo",
+        "href": "/otakudesu/anime/ao-hako-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/ao-hako-sub-indo/"
+      },
+      {
+        "title": "BanG Dream! Ave Mujica",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146762.jpg",
+        "episodes": 1,
+        "releaseDay": "Jumat",
+        "latestReleaseDate": "03 Jan",
+        "animeId": "bang-dream-ave-mujica-sub-indo",
+        "href": "/otakudesu/anime/bang-dream-ave-mujica-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/bang-dream-ave-mujica-sub-indo/"
+      },
+      {
+        "title": "Ameku Takao no Suiri Karte",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Ameku-Takao-no-Suiri-Karte.jpg",
+        "episodes": 2,
+        "releaseDay": "Kamis",
+        "latestReleaseDate": "02 Jan",
+        "animeId": "ameku-karte-sub-indo",
+        "href": "/otakudesu/anime/ameku-karte-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/ameku-karte-sub-indo/"
+      },
+      {
+        "title": "Grisaia: Phantom Trigger",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/142188.jpg",
+        "episodes": 1,
+        "releaseDay": "Kamis",
+        "latestReleaseDate": "02 Jan",
+        "animeId": "grisaia-phantom-trigger-sub-indo",
+        "href": "/otakudesu/anime/grisaia-phantom-trigger-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/grisaia-phantom-trigger-sub-indo/"
+      },
+      {
+        "title": "Izure Saikyou no Renkinjutsushi?",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146222.jpg",
+        "episodes": 1,
+        "releaseDay": "Kamis",
+        "latestReleaseDate": "02 Jan",
+        "animeId": "izure-saikysushi-sub-indo",
+        "href": "/otakudesu/anime/izure-saikysushi-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/izure-saikysushi-sub-indo/"
+      },
+      {
+        "title": "Love Live! Superstar!! Season 3",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Love-Live-Superstar-Season-3-Subtitle-Indonesia.jpg",
+        "episodes": 12,
+        "releaseDay": "Senin",
+        "latestReleaseDate": "02 Jan",
+        "animeId": "love-superstar-s3-sub-indo",
+        "href": "/otakudesu/anime/love-superstar-s3-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/love-superstar-s3-sub-indo/"
+      },
+      {
+        "title": "Salaryman ga Isekai ni Ittara Shitennou ni Natta Hanashi",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/144352l.jpg",
+        "episodes": 1,
+        "releaseDay": "Kamis",
+        "latestReleaseDate": "02 Jan",
+        "animeId": "salaryman-isekai-sub-indo",
+        "href": "/otakudesu/anime/salaryman-isekai-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/salaryman-isekai-sub-indo/"
+      },
+      {
+        "title": "Hazure Skill \"Kinomi Master\"",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146128.jpg",
+        "episodes": 1,
+        "releaseDay": "Rabu",
+        "latestReleaseDate": "01 Jan",
+        "animeId": "kinomi-master-sub-indo",
+        "href": "/otakudesu/anime/kinomi-master-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kinomi-master-sub-indo/"
+      },
+      {
+        "title": "Fate/strange Fake",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/132201-1.jpg",
+        "episodes": 1,
+        "releaseDay": "Selasa",
+        "latestReleaseDate": "01 Jan",
+        "animeId": "fate-fake-whisper-sub-indo",
+        "href": "/otakudesu/anime/fate-fake-whisper-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/fate-fake-whisper-sub-indo/"
+      },
+      {
+        "title": "Kamonohashi Ron no Kindan Suiri Season 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Kamonohashi-Ron-no-Kindan-Suiri-Season-2.jpg",
+        "episodes": 13,
+        "releaseDay": "Selasa",
+        "latestReleaseDate": "31 Des",
+        "animeId": "kamonohashi-suiri-s2-sub-indo",
+        "href": "/otakudesu/anime/kamonohashi-suiri-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kamonohashi-suiri-s2-sub-indo/"
+      },
+      {
+        "title": "Arifureta Shokugyou de Sekai Saikyou Season 3",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Arifureta-Shokugyou-de-Sekai-Saikyou-Season-3.jpg",
+        "episodes": 11,
+        "releaseDay": "Senin",
+        "latestReleaseDate": "30 Des",
+        "animeId": "arifureta-s3-sub-indo",
+        "href": "/otakudesu/anime/arifureta-s3-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/arifureta-s3-sub-indo/"
+      },
+      {
+        "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi S2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-S2-Subtitle-Indonesia.jpg",
+        "episodes": 12,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "29 Des",
+        "animeId": "nanatsu-taizai-my-s2-sub-indo",
+        "href": "/otakudesu/anime/nanatsu-taizai-my-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/nanatsu-taizai-my-s2-sub-indo/"
+      },
+      {
+        "title": "Blue Lock Season 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/144860.jpg",
+        "episodes": 14,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "29 Des",
+        "animeId": "blelock-s2-sub-indo",
+        "href": "/otakudesu/anime/blelock-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/blelock-s2-sub-indo/"
+      },
+      {
+        "title": "Maou 2099",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Maou-2099.jpg",
+        "episodes": 12,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "29 Des",
+        "animeId": "maou-2099-sub-indo",
+        "href": "/otakudesu/anime/maou-2099-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/maou-2099-sub-indo/"
+      },
+      {
+        "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/144074.jpg",
+        "episodes": 14,
+        "releaseDay": "Minggu",
+        "latestReleaseDate": "29 Des",
+        "animeId": "bleach-oukoku-tan-sub-indo",
+        "href": "/otakudesu/anime/bleach-oukoku-tan-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/bleach-oukoku-tan-sub-indo/"
+      }
+    ]
+  },
+  "pagination": {
+    "currentPage": 1,
+    "hasPrevPage": false,
+    "prevPage": null,
+    "hasNextPage": true,
+    "nextPage": 2,
+    "totalPages": 4
+  }
+}
+
+Get : /otakudesu/completed
+Response:
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "animeList": [
+      {
+        "title": "Saikyou no Shienshoku \"Wajutsushi\" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Wajutsushi-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.63",
+        "lastReleaseDate": "03 Jan",
+        "animeId": "saikyou-shieshoku-sub-indo",
+        "href": "/otakudesu/anime/saikyou-shieshoku-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/saikyou-shieshoku-sub-indo/"
+      },
+      {
+        "title": "Tsuma, Shougakusei ni Naru.",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Tsuma-Shougakusei-ni-Naru-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.50",
+        "lastReleaseDate": "02 Jan",
+        "animeId": "tsumasho-sub-indo",
+        "href": "/otakudesu/anime/tsumasho-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/tsumasho-sub-indo/"
+      },
+      {
+        "title": "Dandadan",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Dandadan-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "8.64",
+        "lastReleaseDate": "02 Jan",
+        "animeId": "dandan-sub-indo",
+        "href": "/otakudesu/anime/dandan-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/dandan-sub-indo/"
+      },
+      {
+        "title": "Sayounara Ryuusei, Konnichiwa Jinsei",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Sayounara-Ryuusei-Konnichiwa-Jinsei-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.36",
+        "lastReleaseDate": "02 Jan",
+        "animeId": "sayuseijinsei-sub-indo",
+        "href": "/otakudesu/anime/sayuseijinsei-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/sayuseijinsei-sub-indo/"
+      },
+      {
+        "title": "Acro Trip",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Acro-Trip-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.77",
+        "lastReleaseDate": "28 Des",
+        "animeId": "acrotrip-sub-indo",
+        "href": "/otakudesu/anime/acrotrip-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/acrotrip-sub-indo/"
+      },
+      {
+        "title": "Kekkon suru tte, Hontou desu ka",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Kekkon-suru-tte-Hontou-desu-ka-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.13",
+        "lastReleaseDate": "25 Des",
+        "animeId": "kekkon-hontou-desu-ka-sub-indo",
+        "href": "/otakudesu/anime/kekkon-hontou-desu-ka-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kekkon-hontou-desu-ka-sub-indo/"
+      },
+      {
+        "title": "Hitoribocchi no Isekai Kouryaku",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Hitoribocchi-no-Isekai-Kouryaku-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.57",
+        "lastReleaseDate": "24 Des",
+        "animeId": "hitoribocchi-isekai-kyaku-sub-indo",
+        "href": "/otakudesu/anime/hitoribocchi-isekai-kyaku-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/hitoribocchi-isekai-kyaku-sub-indo/"
+      },
+      {
+        "title": "Maou-sama, Retry! Season 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Maou-sama-Retry-Season-2-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "5.86",
+        "lastReleaseDate": "22 Des",
+        "animeId": "maou-retry-r-sub-indo",
+        "href": "/otakudesu/anime/maou-retry-r-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/maou-retry-r-sub-indo/"
+      },
+      {
+        "title": "Isekai Suicide Squad",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Isekai-Suicide-Squad-Sub-Indo.jpg",
+        "episodes": 10,
+        "score": "6.48",
+        "lastReleaseDate": "21 Des",
+        "animeId": "isekai-squad-sub-indo",
+        "href": "/otakudesu/anime/isekai-squad-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/isekai-squad-sub-indo/"
+      },
+      {
+        "title": "Jiisan Baasan Wakagaeru",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Jiisan-Baasan-Wakagaeru-Sub-Indo.jpg",
+        "episodes": 11,
+        "score": "7.48",
+        "lastReleaseDate": "20 Des",
+        "animeId": "jiisan-baasan-sub-indo",
+        "href": "/otakudesu/anime/jiisan-baasan-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/jiisan-baasan-sub-indo/"
+      },
+      {
+        "title": "Hibike! Euphonium Season 3",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Hibike-Euphonium-Season-3-Sub-Indo.jpg",
+        "episodes": 13,
+        "score": "8.72",
+        "lastReleaseDate": "20 Des",
+        "animeId": "hibike-euphonium-season-3-subtitle-indonesia",
+        "href": "/otakudesu/anime/hibike-euphonium-season-3-subtitle-indonesia",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/hibike-euphonium-season-3-subtitle-indonesia/"
+      },
+      {
+        "title": "Unnamed Memory",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Unnamed-Memory-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.69",
+        "lastReleaseDate": "17 Des",
+        "animeId": "unnamed-memo-sub-indo",
+        "href": "/otakudesu/anime/unnamed-memo-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/unnamed-memo-sub-indo/"
+      },
+      {
+        "title": "Yoru no Kurage wa Oyogenai",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Yoru-no-Kurage-wa-Oyogenai-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.79",
+        "lastReleaseDate": "15 Des",
+        "animeId": "yoru-kurage-oyogenai-sub-indo",
+        "href": "/otakudesu/anime/yoru-kurage-oyogenai-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/yoru-kurage-oyogenai-sub-indo/"
+      },
+      {
+        "title": "Vampire Dormitory",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Vampire-Dormitory-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.21",
+        "lastReleaseDate": "14 Des",
+        "animeId": "vampir-drom-sub-indo",
+        "href": "/otakudesu/anime/vampir-drom-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/vampir-drom-sub-indo/"
+      },
+      {
+        "title": "Maou Gakuin no Futekigousha Season 2 Part 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Maou-Gakuin-no-Futekigousha-Season-2-Part-2-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.41",
+        "lastReleaseDate": "13 Des",
+        "animeId": "maou-gakuin-s2-p2-sub-indo",
+        "href": "/otakudesu/anime/maou-gakuin-s2-p2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/maou-gakuin-s2-p2-sub-indo/"
+      },
+      {
+        "title": "The New Gate",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/The-New-Gate-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.43",
+        "lastReleaseDate": "12 Des",
+        "animeId": "new-gate-sub-indo",
+        "href": "/otakudesu/anime/new-gate-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/new-gate-sub-indo/"
+      },
+      {
+        "title": "Kuroshitsuji: Kishuku Gakkou-hen",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Kuroshitsuji-Kishuku-Gakkou-hen-Sub-Indo.jpg",
+        "episodes": 11,
+        "score": "7.86",
+        "lastReleaseDate": "12 Des",
+        "animeId": "kurositsuji-gakkou-sub-indo",
+        "href": "/otakudesu/anime/kurositsuji-gakkou-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kurositsuji-gakkou-sub-indo/"
+      },
+      {
+        "title": "Kaijuu 8-gou",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Kaijuu-8-gou-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "8.30",
+        "lastReleaseDate": "11 Des",
+        "animeId": "kaiju-gou-sub-indo",
+        "href": "/otakudesu/anime/kaiju-gou-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kaiju-gou-sub-indo/"
+      },
+      {
+        "title": "Henjin no Salad Bowl",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Henjin-no-Salad-Bowl-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.29",
+        "lastReleaseDate": "10 Des",
+        "animeId": "henjin-salad-bowl-sub-indo",
+        "href": "/otakudesu/anime/henjin-salad-bowl-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/henjin-salad-bowl-sub-indo/"
+      },
+      {
+        "title": "Date A Live Season 5",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Date-A-Live-Season-5-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.69",
+        "lastReleaseDate": "09 Des",
+        "animeId": "date-live-v-sub-indo",
+        "href": "/otakudesu/anime/date-live-v-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/date-live-v-sub-indo/"
+      },
+      {
+        "title": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Lv2-kara-Cheat-datta-Motoyuusha-Kouho-no-Mattari-Isekai-Life-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.81",
+        "lastReleaseDate": "05 Des",
+        "animeId": "lv2-kara-cheat-sub-indo",
+        "href": "/otakudesu/anime/lv2-kara-cheat-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/lv2-kara-cheat-sub-indo/"
+      },
+      {
+        "title": "Hananoi-kun to Koi no Yamai",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Hananoi-kun-to-Koi-no-Yamai-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "6.74",
+        "lastReleaseDate": "04 Des",
+        "animeId": "hananoi-koi-yamai-sub-indo",
+        "href": "/otakudesu/anime/hananoi-koi-yamai-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/hananoi-koi-yamai-sub-indo/"
+      },
+      {
+        "title": "Bartender: Kami no Glass",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Bartender-Kami-no-Glass-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.37",
+        "lastReleaseDate": "04 Des",
+        "animeId": "brtender-kami-glass-sub-indo",
+        "href": "/otakudesu/anime/brtender-kami-glass-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/brtender-kami-glass-sub-indo/"
+      },
+      {
+        "title": "Blue Archive the Animation",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Blue-Archive-the-Animation-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "7.05",
+        "lastReleaseDate": "03 Des",
+        "animeId": "blue-archive-sub-indo",
+        "href": "/otakudesu/anime/blue-archive-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/blue-archive-sub-indo/"
+      },
+      {
+        "title": "Yuru Camp Season 3",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Yuru-Camp-Season-3-Sub-Indo.jpg",
+        "episodes": 12,
+        "score": "8.02",
+        "lastReleaseDate": "03 Des",
+        "animeId": "yuru-no-camp-season-3-sub-indo",
+        "href": "/otakudesu/anime/yuru-no-camp-season-3-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/yuru-no-camp-season-3-sub-indo/"
+      }
+    ]
+  },
+  "pagination": {
+    "currentPage": 1,
+    "hasPrevPage": false,
+    "prevPage": null,
+    "hasNextPage": true,
+    "nextPage": 2,
+    "totalPages": 59
+  }
+}
+
+Get : /otakudesu/search?q=nama_anime
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "animeList": [
+      {
+        "title": "Dragon Quest: Dai no Daibouken (2020) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2020/10/Dragon-Quest-Sub-Indo.jpg",
+        "status": "Ongoing",
+        "score": "7.32",
+        "animeId": "dragon-the-quest-sub-indo",
+        "href": "/otakudesu/anime/dragon-the-quest-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/dragon-the-quest-sub-indo/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/otakudesu/genres/shounen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Kobayashi-san Chi no Maid Dragon S (Episode 1 – 12) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2021/07/Kobayashi-san-Chi-no-Maid-Dragon-Season-2-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "8.50",
+        "animeId": "kobamaid-s2-sub-indo",
+        "href": "/otakudesu/anime/kobamaid-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kobamaid-s2-sub-indo/",
+        "genreList": [
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Slice of Life",
+            "genreId": "slice-of-life",
+            "href": "/otakudesu/genres/slice-of-life",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/slice-of-life/"
+          }
+        ]
+      },
+      {
+        "title": "Dragon, Ie wo Kau (Episode 1 – 12) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2021/04/Dragon-Ie-wo-Kau.-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "6.39",
+        "animeId": "drgon-iewo-sub-indo",
+        "href": "/otakudesu/anime/drgon-iewo-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/drgon-iewo-sub-indo/",
+        "genreList": [
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/otakudesu/genres/shounen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Kuutei Dragons (Episode 1 – 12) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2020/01/Kuutei-Dragons-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "7.12",
+        "animeId": "kuu-dragons-sub-indo",
+        "href": "/otakudesu/anime/kuu-dragons-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kuu-dragons-sub-indo/",
+        "genreList": [
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Seinen",
+            "genreId": "seinen",
+            "href": "/otakudesu/genres/seinen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/seinen/"
+          }
+        ]
+      },
+      {
+        "title": "Kobayashi-san Chi no Maid Dragon BD (Episode 1 – 13) Subtitle Indonesia + OVA",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2019/04/Kobayashi-san-Chi-no-Maid-Dragon-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "8.26",
+        "animeId": "kobayashi-sub-indo",
+        "href": "/otakudesu/anime/kobayashi-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kobayashi-sub-indo/",
+        "genreList": [
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Slice of Life",
+            "genreId": "slice-of-life",
+            "href": "/otakudesu/genres/slice-of-life",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/slice-of-life/"
+          }
+        ]
+      },
+      {
+        "title": "Seikoku no Dragonar BD (Episode 1 – 12) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2018/11/Seikoku-no-Dragonar-Sub-Indo-1.jpg",
+        "status": "Completed",
+        "score": "6.70",
+        "animeId": "seikoku-dragonar-subtitle-indonesia",
+        "href": "/otakudesu/anime/seikoku-dragonar-subtitle-indonesia",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/seikoku-dragonar-subtitle-indonesia/",
+        "genreList": [
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/otakudesu/genres/school",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+          }
+        ]
+      },
+      {
+        "title": "Dragon Crisis! BD (Episode 1 – 12) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2018/08/Dragon-Crisis-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "6.85",
+        "animeId": "dragon-no-crisis-subtitle-indonesia",
+        "href": "/otakudesu/anime/dragon-no-crisis-subtitle-indonesia",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/dragon-no-crisis-subtitle-indonesia/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Magic",
+            "genreId": "magic",
+            "href": "/otakudesu/genres/magic",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/magic/"
+          },
+          {
+            "title": "Romance",
+            "genreId": "romance",
+            "href": "/otakudesu/genres/romance",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/romance/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/otakudesu/genres/school",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+          },
+          {
+            "title": "Seinen",
+            "genreId": "seinen",
+            "href": "/otakudesu/genres/seinen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/seinen/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/otakudesu/genres/supernatural",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/supernatural/"
+          }
+        ]
+      },
+      {
+        "title": "Juuou Mujin no Fafnir (Episode 1 – 12) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2021/05/Juuou-Mujin-no-Fafnir-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "6.23",
+        "animeId": "juuou-mujin-fafnir-sub-indo",
+        "href": "/otakudesu/anime/juuou-mujin-fafnir-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/juuou-mujin-fafnir-sub-indo/",
+        "genreList": [
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Harem",
+            "genreId": "harem",
+            "href": "/otakudesu/genres/harem",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/harem/"
+          },
+          {
+            "title": "Romance",
+            "genreId": "romance",
+            "href": "/otakudesu/genres/romance",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/romance/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/otakudesu/genres/school",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+          }
+        ]
+      },
+      {
+        "title": "High School DxD BorN BD (Episode 1 – 12) Subtitle Indonesia + OVA",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2018/04/Highschool-DxD-Season-3-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "7.68",
+        "animeId": "high-on-school-dxd-season-3-subtitle-indonesia",
+        "href": "/otakudesu/anime/high-on-school-dxd-season-3-subtitle-indonesia",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/high-on-school-dxd-season-3-subtitle-indonesia/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Romance",
+            "genreId": "romance",
+            "href": "/otakudesu/genres/romance",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/romance/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/otakudesu/genres/school",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+          }
+        ]
+      },
+      {
+        "title": "High School DxD New BD (Episod 1 – 12) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2018/04/High-School-DxD-Season-2-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "7.79",
+        "animeId": "high-on-school-dxd-season-2-subtitle-indonesia",
+        "href": "/otakudesu/anime/high-on-school-dxd-season-2-subtitle-indonesia",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/high-on-school-dxd-season-2-subtitle-indonesia/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Demons",
+            "genreId": "demons",
+            "href": "/otakudesu/genres/demons",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/demons/"
+          },
+          {
+            "title": "Ecchi",
+            "genreId": "ecchi",
+            "href": "/otakudesu/genres/ecchi",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/ecchi/"
+          },
+          {
+            "title": "Harem",
+            "genreId": "harem",
+            "href": "/otakudesu/genres/harem",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/harem/"
+          },
+          {
+            "title": "Romance",
+            "genreId": "romance",
+            "href": "/otakudesu/genres/romance",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/romance/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/otakudesu/genres/school",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+          }
+        ]
+      },
+      {
+        "title": "Nobunaga the Fool BD (Episode 1 – 24) Subtitle Indonesia",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2018/03/Nobunaga-the-Fool-Sub-Indo.jpg",
+        "status": "Completed",
+        "score": "6.78",
+        "animeId": "nobunaga-fool-subtitle-indonesia",
+        "href": "/otakudesu/anime/nobunaga-fool-subtitle-indonesia",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/nobunaga-fool-subtitle-indonesia/",
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Historical",
+            "genreId": "historical",
+            "href": "/otakudesu/genres/historical",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/historical/"
+          },
+          {
+            "title": "Mecha",
+            "genreId": "mecha",
+            "href": "/otakudesu/genres/mecha",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/mecha/"
+          },
+          {
+            "title": "Sci-Fi",
+            "genreId": "sci-fi",
+            "href": "/otakudesu/genres/sci-fi",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/sci-fi/"
+          }
+        ]
+      }
+    ]
+  },
+  "pagination": null
+}
+
+Get : /otakudesu/genres/{genreId}
+Response :
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "animeList": [
+      {
+        "title": "Solo Leveling Season 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/145502.jpg",
+        "studios": "A-1 Pictures",
+        "score": "8.39",
+        "episodes": null,
+        "season": "Winter 2025",
+        "animeId": "solo-level-s2-sub-indo",
+        "href": "/otakudesu/anime/solo-level-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/solo-level-s2-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          }
+        ]
+      },
+      {
+        "title": "Ao no Exorcist: Yosuga-hen",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/147040.jpg",
+        "studios": "Studio VOLN",
+        "score": "7.01",
+        "episodes": null,
+        "season": "Winter 2025",
+        "animeId": "ao-exorcist-yosuga-sub-indo",
+        "href": "/otakudesu/anime/ao-exorcist-yosuga-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/ao-exorcist-yosuga-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Mythology",
+            "genreId": "mythology",
+            "href": "/otakudesu/genres/mythology",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/mythology/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/otakudesu/genres/school",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/otakudesu/genres/shounen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/otakudesu/genres/supernatural",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/supernatural/"
+          }
+        ]
+      },
+      {
+        "title": "Momentary Lily",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/143656.jpg",
+        "studios": "GoHands",
+        "score": "",
+        "episodes": null,
+        "season": "Winter 2025",
+        "animeId": "momentary-lily-sub-indo",
+        "href": "/otakudesu/anime/momentary-lily-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/momentary-lily-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          }
+        ]
+      },
+      {
+        "title": "S-Rank Monster no \"Behemoth\" dakedo",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/146916l.jpg",
+        "studios": "Zero-G, Saber Works",
+        "score": "",
+        "episodes": null,
+        "season": "Winter 2025",
+        "animeId": "s-rank-monster-behemoth-sub-indo",
+        "href": "/otakudesu/anime/s-rank-monster-behemoth-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/s-rank-monster-behemoth-sub-indo/",
+        "synopsis": {
+          "paragraphs": [
+            "Berlatar di sebuah kota labirin bernama Lewin, seorang pahlawan berienkarnasi menjadi Kucing. Namun, ia bukanlah kucing biasa melainkan perwujudan dari monster S Rank bernama Behemoth. Suatu hari, Behemoth yang diserang oleh monster bertemu dengan Aria dan merawatnya hingga sembuh.",
+            "Aria yang tidak mengetahui bahwa Behemoth merupakan monster S Rank justru membawanya pulang dan menjadikan ia sebagai hewan peliharannya. Aria pun memberikan nama Tama kepada Behemoth dan menganggap ia sebagai Kucing Elemental. Sekarang, bagaimana kisah hidup Tama dan juga tuannya, Aria?"
+          ]
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Ecchi",
+            "genreId": "ecchi",
+            "href": "/otakudesu/genres/ecchi",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/ecchi/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Reincarnation",
+            "genreId": "reincarnation",
+            "href": "/otakudesu/genres/reincarnation",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/reincarnation/"
+          },
+          {
+            "title": "Seinen",
+            "genreId": "seinen",
+            "href": "/otakudesu/genres/seinen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/seinen/"
+          }
+        ]
+      },
+      {
+        "title": "Saikyou no Shienshoku \"Wajutsushi\" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Wajutsushi-Sub-Indo.jpg",
+        "studios": "Felix Film, Ga-Crew",
+        "score": "7.63",
+        "episodes": 12,
+        "season": "Fall 2024",
+        "animeId": "saikyou-shieshoku-sub-indo",
+        "href": "/otakudesu/anime/saikyou-shieshoku-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/saikyou-shieshoku-sub-indo/",
+        "synopsis": {
+          "paragraphs": [
+            "Wajutsushi mengisahkan Noel, seorang anak laki-laki dan juga cucu dari pahlawan legendaris bernama Over Death. Ketika kecil dulu, Noel kehilangan sang kakek karena melindungi dirinya dari serangan Void. Ia pun berjanji akan mengikuti jejak sang kakek menjadi seorang Seeker.",
+            "Beberapa tahun setelahnya, Noel kini menjadi seorang Seeker dengan mengemban tugas sebagai pendukung karena ia tidak memiliki kekuatan untuk bertarung. Walau begitu, Noel yang jago dalam berkomunikasi menggunakan kemampuannya tersebut untuk membentuk sebuah kelompok."
+          ]
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          }
+        ]
+      },
+      {
+        "title": "Dandadan",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Dandadan-Sub-Indo.jpg",
+        "studios": "Science SARU",
+        "score": "8.64",
+        "episodes": 12,
+        "season": "Fall 2024",
+        "animeId": "dandan-sub-indo",
+        "href": "/otakudesu/anime/dandan-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/dandan-sub-indo/",
+        "synopsis": {
+          "paragraphs": [
+            "Ken Takakura dan Momo merupakan dua siswa SMA yang memiliki kepercayaan masing-masing. Ken Takakura percaya bahwa alien itu ada sementara Momo meyakini bahwa hantu itu ada. Untuk membuktikannya, kedua siswa tersebut mendatangi rumah sakit bekas untuk mencari keberadaan UFO. Sementara itu, Ken mendatangi terowongan yang diyakini berhantu.",
+            "Ternyata, di Lokasi mereka masing-masing terjadi kejadian misterius yang membawa keduanya ke hal-hal di luar nalar manusia."
+          ]
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Comedy",
+            "genreId": "comedy",
+            "href": "/otakudesu/genres/comedy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/comedy/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/otakudesu/genres/shounen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/otakudesu/genres/supernatural",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/supernatural/"
+          }
+        ]
+      },
+      {
+        "title": "Sayounara Ryuusei, Konnichiwa Jinsei",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Sayounara-Ryuusei-Konnichiwa-Jinsei-Sub-Indo.jpg",
+        "studios": "SynergySP, Vega Entertainment",
+        "score": "6.36",
+        "episodes": 12,
+        "season": "Fall 2024",
+        "animeId": "sayuseijinsei-sub-indo",
+        "href": "/otakudesu/anime/sayuseijinsei-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/sayuseijinsei-sub-indo/",
+        "synopsis": {
+          "paragraphs": [
+            "Dulu, hidup seekor naga kuno yang sayangnya terpaksa dibunuh oleh para manusia. Setelah kematiannya, sang naga berienkarnasi menjadi manusia bernama Dolan, seorang laki-laki yang hidup di sebuah desa terpencil.",
+            "Sebagaimana manusia pada umumnya, Dolan bekerja di ladang dan melakukan perburuan untuk memenuhi kehidupannya. Suatu hari, Dolan yang mendapatkan tugas untuk menyelidiki sebuah rawa-rawa bertemu dengan gadis bernama Celina, seorang lamia bertubuh manusia.",
+            "Pertemuannya dengan Lamia rupanya akan membuat kehidupan Dolan berubah.",
+            "Link diperbarui 02/01/2025"
+          ]
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Reincarnation",
+            "genreId": "reincarnation",
+            "href": "/otakudesu/genres/reincarnation",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/reincarnation/"
+          }
+        ]
+      },
+      {
+        "title": "Grisaia: Phantom Trigger",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/142188.jpg",
+        "studios": "Bibury Animation Studios",
+        "score": "7.00",
+        "episodes": null,
+        "season": "Winter 2025",
+        "animeId": "grisaia-phantom-trigger-sub-indo",
+        "href": "/otakudesu/anime/grisaia-phantom-trigger-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/grisaia-phantom-trigger-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "School",
+            "genreId": "school",
+            "href": "/otakudesu/genres/school",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/school/"
+          }
+        ]
+      },
+      {
+        "title": "Hazure Skill \"Kinomi Master\"",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/146128.jpg",
+        "studios": "Asahi Production",
+        "score": "",
+        "episodes": null,
+        "season": "Winter 2025",
+        "animeId": "kinomi-master-sub-indo",
+        "href": "/otakudesu/anime/kinomi-master-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/kinomi-master-sub-indo/",
+        "synopsis": {
+          "paragraphs": [
+            "Buah Skill, sebuah buah yang akan memberikan kemampuan khusus tergantung keberuntungan mereka. Kisah pun berpusat kepada Light, seorang anak laki-laki yang memiliki cita-cita untuk menjadi seorang petualang. Sayangnya, mimpi tersebut harus ia kubur karena dirinya tidak memiliki kemampuan bertarung dan hanya memiliki skill Kinomi Master atau Master Buah.",
+            "Sementara itu, teman masa kecilnya yakni Lena justru berhasil menjadi seorang petualang paling Tangguh dan membuat jarak mereka berdua kian meregang. Suatu hari, Light yang secara tidak sengaja memakan Kembali Buah Skill tersebut dan ia mendapatkan sebuah skill baru.",
+            "Setelah kejadian tersebut, Light menyadari bahwa Konomi Master merupakan sebuah skill yang membuatnya bisa menghindari makanan beracun termasuk Buah Skill."
+          ]
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          }
+        ]
+      },
+      {
+        "title": "Fate/strange Fake",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/132201-1.jpg",
+        "studios": "A-1 Pictures",
+        "score": "8.19",
+        "episodes": null,
+        "season": "Winter 2025",
+        "animeId": "fate-fake-whisper-sub-indo",
+        "href": "/otakudesu/anime/fate-fake-whisper-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/fate-fake-whisper-sub-indo/",
+        "synopsis": {
+          "paragraphs": [
+            "Perang Cawan Suci merupakan sebuah perang yang melibatkan para Master (Penyihir) dan juga Roh Pahlawan (Servant). Keduanya berperang untuk memperebutkan Cawan Suci yang dapat mengabulkan semua keingingan pemenang.",
+            "Setelah bertahun-tahun sejak pertempuran Cawan Suci Kelimat di Jepang, kini sebuah daerah bernama Snowfield yang berlokasi di Amerika Serikat terpilih menjadi Lokasi untuk perang Cawan Suci Keenam. Seluruh Master dan Servant kini berkumpul disana. Termasuk Sajou Ayaka yang diminta untuk berpartisipasi pada perang kali ini."
+          ]
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          }
+        ]
+      },
+      {
+        "title": "Arifureta Shokugyou de Sekai Saikyou Season 3",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Arifureta-Shokugyou-de-Sekai-Saikyou-Season-3.jpg",
+        "studios": "asread.",
+        "score": "7.00",
+        "episodes": 16,
+        "season": "Fall 2024",
+        "animeId": "arifureta-s3-sub-indo",
+        "href": "/otakudesu/anime/arifureta-s3-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/arifureta-s3-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Harem",
+            "genreId": "harem",
+            "href": "/otakudesu/genres/harem",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/harem/"
+          },
+          {
+            "title": "Isekai",
+            "genreId": "isekai",
+            "href": "/otakudesu/genres/isekai",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/isekai/"
+          }
+        ]
+      },
+      {
+        "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi S2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-S2-Subtitle-Indonesia.jpg",
+        "studios": "Telecom Animation Film",
+        "score": "7.07",
+        "episodes": null,
+        "season": "Fall 2024",
+        "animeId": "nanatsu-taizai-my-s2-sub-indo",
+        "href": "/otakudesu/anime/nanatsu-taizai-my-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/nanatsu-taizai-my-s2-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/otakudesu/genres/shounen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Shangri-La Frontier Season 2",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Shangri-La-Frontier-Season-2.jpg",
+        "studios": "C2C",
+        "score": "7.84",
+        "episodes": null,
+        "season": "Fall 2024",
+        "animeId": "shangri-frontier-s2-sub-indo",
+        "href": "/otakudesu/anime/shangri-frontier-s2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/shangri-frontier-s2-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/otakudesu/genres/shounen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+          }
+        ]
+      },
+      {
+        "title": "Maou 2099",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/Maou-2099.jpg",
+        "studios": "J.C.Staff",
+        "score": "7.15",
+        "episodes": 12,
+        "season": "Fall 2024",
+        "animeId": "maou-2099-sub-indo",
+        "href": "/otakudesu/anime/maou-2099-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/maou-2099-sub-indo/",
+        "synopsis": {
+          "paragraphs": [
+            "Berlatar di Jepang, Kota Shinjuku tepatnya pada tahun 2099, Raja Iblis bernama Veltol Kembali di kota futuristic tersebut. Walau kota tersebut bersinar dengan sangat terang, namun ada beberapa hal kegelapan yang tersembunyi jauh di sana.",
+            "500 tahun sejak saat itu, Raja Iblis memutuskan Kembali ke dunia dan ingin menguasai segala hal yang ada saat ini. Namun, apakah rencananya akan berjalan dengan sempurna atau tidak?"
+          ]
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Fantasy",
+            "genreId": "fantasy",
+            "href": "/otakudesu/genres/fantasy",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+          },
+          {
+            "title": "Sci-Fi",
+            "genreId": "sci-fi",
+            "href": "/otakudesu/genres/sci-fi",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/sci-fi/"
+          }
+        ]
+      },
+      {
+        "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/10/144074.jpg",
+        "studios": "Pierrot Films",
+        "score": "8.94",
+        "episodes": null,
+        "season": "Fall 2024",
+        "animeId": "bleach-oukoku-tan-sub-indo",
+        "href": "/otakudesu/anime/bleach-oukoku-tan-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/bleach-oukoku-tan-sub-indo/",
+        "synopsis": {
+          "paragraphs": []
+        },
+        "genreList": [
+          {
+            "title": "Action",
+            "genreId": "action",
+            "href": "/otakudesu/genres/action",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+          },
+          {
+            "title": "Adventure",
+            "genreId": "adventure",
+            "href": "/otakudesu/genres/adventure",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+          },
+          {
+            "title": "Shounen",
+            "genreId": "shounen",
+            "href": "/otakudesu/genres/shounen",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/shounen/"
+          },
+          {
+            "title": "Supernatural",
+            "genreId": "supernatural",
+            "href": "/otakudesu/genres/supernatural",
+            "otakudesuUrl": "https://otakudesu.cloud/genres/supernatural/"
+          }
+        ]
+      }
+    ]
+  },
+  "pagination": {
+    "currentPage": 1,
+    "hasPrevPage": false,
+    "prevPage": null,
+    "hasNextPage": true,
+    "nextPage": 2,
+    "totalPages": 40
+  }
+}
+
+Get : /otakudesu/anime/{animeId}
+Response :
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "title": "Saikyou no Shienshoku \"Wajutsushi\" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
+    "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Wajutsushi-Sub-Indo.jpg",
+    "japanese": "最凶の支援職【話術士】である俺は世界最強クランを従える",
+    "score": "7.63",
+    "producers": "Pony Canyon, DAX Production, KlockWorx, Tokyo MX, Docomo Anime Store, Overlap, Kadokawa Media House, Contents Seed, BS NTV, MAGNET, Bushiroad Move, GREE Entertainment",
+    "status": "Completed",
+    "episodes": 12,
+    "duration": "23 Menit",
+    "aired": "Okt 07, 2024",
+    "studios": "Felix Film, Ga-Crew",
+    "batch": {
+      "title": "Saikyou no Shienshoku “Wajutsushi” de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru [BATCH] Subtitle Indonesia",
+      "batchId": "snswdss-batch-sub-indo",
+      "href": "/otakudesu/batch/snswdss-batch-sub-indo",
+      "otakudesuUrl": "https://otakudesu.cloud/batch/snswdss-batch-sub-indo/"
+    },
+    "synopsis": {
+      "paragraphs": [
+        "Wajutsushi mengisahkan Noel, seorang anak laki-laki dan juga cucu dari pahlawan legendaris bernama Over Death. Ketika kecil dulu, Noel kehilangan sang kakek karena melindungi dirinya dari serangan Void. Ia pun berjanji akan mengikuti jejak sang kakek menjadi seorang Seeker.",
+        "Beberapa tahun setelahnya, Noel kini menjadi seorang Seeker dengan mengemban tugas sebagai pendukung karena ia tidak memiliki kekuatan untuk bertarung. Walau begitu, Noel yang jago dalam berkomunikasi menggunakan kemampuannya tersebut untuk membentuk sebuah kelompok."
+      ],
+      "connections": []
+    },
+    "genreList": [
+      {
+        "title": "Action",
+        "genreId": "action",
+        "href": "/otakudesu/genres/action",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+      },
+      {
+        "title": "Adventure",
+        "genreId": "adventure",
+        "href": "/otakudesu/genres/adventure",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+      },
+      {
+        "title": "Fantasy",
+        "genreId": "fantasy",
+        "href": "/otakudesu/genres/fantasy",
+        "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+      }
+    ],
+    "episodeList": [
+      {
+        "title": 12,
+        "episodeId": "snswdss-eouside-12-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-12-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-12-sub-indo/"
+      },
+      {
+        "title": 11,
+        "episodeId": "snswdss-eouside-11-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-11-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-11-sub-indo/"
+      },
+      {
+        "title": 10,
+        "episodeId": "snswdss-eouside-10-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-10-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-10-sub-indo/"
+      },
+      {
+        "title": 9,
+        "episodeId": "snswdss-eouside-9-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-9-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-9-sub-indo/"
+      },
+      {
+        "title": 8,
+        "episodeId": "snswdss-eouside-8-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-8-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-8-sub-indo/"
+      },
+      {
+        "title": 7,
+        "episodeId": "snswdss-eouside-7-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-7-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-7-sub-indo/"
+      },
+      {
+        "title": 6,
+        "episodeId": "snswdss-eouside-6-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-6-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-6-sub-indo/"
+      },
+      {
+        "title": 5,
+        "episodeId": "snswdss-eouside-5-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-5-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-5-sub-indo/"
+      },
+      {
+        "title": 4,
+        "episodeId": "snswdss-eouside-4-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-4-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-4-sub-indo/"
+      },
+      {
+        "title": 3,
+        "episodeId": "snswdss-eouside-3-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-3-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-3-sub-indo/"
+      },
+      {
+        "title": 2,
+        "episodeId": "snswdss-eouside-2-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-2-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-2-sub-indo/"
+      },
+      {
+        "title": 1,
+        "episodeId": "snswdss-eouside-1-sub-indo",
+        "href": "/otakudesu/episode/snswdss-eouside-1-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-1-sub-indo/"
+      }
+    ],
+    "recommendedAnimeList": [
+      {
+        "title": "Saikyou no Shienshoku \"Wajutsushi\" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Wajutsushi-Sub-Indo.jpg",
+        "animeId": "saikyou-shieshoku-sub-indo",
+        "href": "/otakudesu/anime/saikyou-shieshoku-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/saikyou-shieshoku-sub-indo/"
+      },
+      {
+        "title": "Tsuma, Shougakusei ni Naru.",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Tsuma-Shougakusei-ni-Naru-Sub-Indo.jpg",
+        "animeId": "tsumasho-sub-indo",
+        "href": "/otakudesu/anime/tsumasho-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/tsumasho-sub-indo/"
+      },
+      {
+        "title": "Dandadan",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2025/01/Dandadan-Sub-Indo.jpg",
+        "animeId": "dandan-sub-indo",
+        "href": "/otakudesu/anime/dandan-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/dandan-sub-indo/"
+      },
+      {
+        "title": "Sayounara Ryuusei, Konnichiwa Jinsei",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Sayounara-Ryuusei-Konnichiwa-Jinsei-Sub-Indo.jpg",
+        "animeId": "sayuseijinsei-sub-indo",
+        "href": "/otakudesu/anime/sayuseijinsei-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/sayuseijinsei-sub-indo/"
+      },
+      {
+        "title": "Acro Trip",
+        "poster": "https://otakudesu.cloud/wp-content/uploads/2024/12/Acro-Trip-Sub-Indo.jpg",
+        "animeId": "acrotrip-sub-indo",
+        "href": "/otakudesu/anime/acrotrip-sub-indo",
+        "otakudesuUrl": "https://otakudesu.cloud/anime/acrotrip-sub-indo/"
+      }
+    ]
+  },
+  "pagination": null
+}
+
+Get : /otakudesu/episode/{episodeId}
+Response :
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "title": "Saikyou no Shienshoku “Wajutsushi” de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru Episode 12 (End) Subtitle Indonesia",
+    "animeId": "saikyou-shieshoku-sub-indo",
+    "releaseTime": "Release on 11:14 am",
+    "defaultStreamingUrl": "https://desustream.info/dstream/otakuwatch3/index.php?id=ZUphTzk4OVpiQmNzRmJLT3drNTNwcFg4dXlKYkpNMEt5TkxuRGpGcXpsTT0=",
+    "hasPrevEpisode": true,
+    "prevEpisode": {
+      "title": "Prev",
+      "episodeId": "snswdss-eouside-11-sub-indo",
+      "href": "/otakudesu/episode/snswdss-eouside-11-sub-indo",
+      "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-11-sub-indo/"
+    },
+    "hasNextEpisode": false,
+    "nextEpisode": null,
+    "server": {
+      "qualities": [
+        {
+          "title": "360p",
+          "serverList": []
+        },
+        {
+          "title": "480p",
+          "serverList": [
+            {
+              "title": "otakuwatch3",
+              "serverId": "6C8DCE-5-9D5u",
+              "href": "/otakudesu/server/6C8DCE-5-9D5u"
+            },
+            {
+              "title": "odstream",
+              "serverId": "6C8DCE-6-9D5u",
+              "href": "/otakudesu/server/6C8DCE-6-9D5u"
+            },
+            {
+              "title": "vidhide",
+              "serverId": "6C8DCE-7-9D5u",
+              "href": "/otakudesu/server/6C8DCE-7-9D5u"
+            },
+            {
+              "title": "mega",
+              "serverId": "6C8DCE-8-9D5u",
+              "href": "/otakudesu/server/6C8DCE-8-9D5u"
+            }
+          ]
+        },
+        {
+          "title": "720p",
+          "serverList": [
+            {
+              "title": "otakuwatch3hd ",
+              "serverId": "6C8DCE-5-C75u",
+              "href": "/otakudesu/server/6C8DCE-5-C75u"
+            },
+            {
+              "title": "odstreamhd ",
+              "serverId": "6C8DCE-6-C75u",
+              "href": "/otakudesu/server/6C8DCE-6-C75u"
+            },
+            {
+              "title": "vidhide ",
+              "serverId": "6C8DCE-7-C75u",
+              "href": "/otakudesu/server/6C8DCE-7-C75u"
+            },
+            {
+              "title": "mega ",
+              "serverId": "6C8DCE-8-C75u",
+              "href": "/otakudesu/server/6C8DCE-8-C75u"
+            }
+          ]
+        }
+      ]
+    },
+    "downloadUrl": {
+      "qualities": [
+        {
+          "title": "360p",
+          "size": "41.2 MB",
+          "urls": [
+            {
+              "title": "OtakuFiles",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNjJ5QzFlYmFHa25pQU0zWDNubEZNSnZrdFpDOWp4dDR1M2xabFNsaDJMRjRMZlRyTlV2QTFRUjNnRTk2YXJic0xHM3JaRHRoOGpMdVlMTWc9PQ=="
+            },
+            {
+              "title": "Kraken",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStySi9XQW9uV1NtZ2tVQStsaFVBczZxOFpHL2pRPT0="
+            },
+            {
+              "title": "PDrain",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqbmhiUnZIUTVBWUU="
+            },
+            {
+              "title": "VidHide",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVNOXlmR3kycHdITDdDWTdxVHd0ZXdqbkJVZVBqL21qMFAzelgvdWw0SnRGST0="
+            },
+            {
+              "title": "Mega",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUmxQdVoyQ1pjVm95eSttd3I1VGkrcTM0a3ZWRk9OcC9oM3Ara2svZDltUm5HQWNhY0RwaFI5R0lvSmxjTDhQWEJhcVdhMlE9PQ=="
+            }
+          ]
+        },
+        {
+          "title": "480p",
+          "size": "71.2 MB",
+          "urls": [
+            {
+              "title": "OtakuFiles",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNjF6Q3RTS3ZYaGtXMGN4RG5ubEZNSnZrdFpDOWp4dDR1M2xabFNsaDJMRjRMZlRyTlV2QTFRUjNnRTk2YXJhY3pHM3JaRHRoOGpMdVlMTWc9PQ=="
+            },
+            {
+              "title": "Kraken",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyandCY2JtM2lpbW1ZSytsaFVBczZxOFpHL2pRPT0="
+            },
+            {
+              "title": "PDrain",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqaTFUVEt1aTZDYzg="
+            },
+            {
+              "title": "VidHide",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVNOXlmR3kycHdITDdDWTdxVHd0ZXdqbkJVZVBqaDBXSVB3VDJnc0VzQXNWQT0="
+            },
+            {
+              "title": "Mega",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUmkrVGsyeWRjWm9heThCeGF5VnVNaVg4S3JIOU9XTXpiNGJDMzA2Vjlrai9LRWNYaURxOVE4bVVzUjJNVTI0RzZMWWFUNnc9PQ=="
+            }
+          ]
+        },
+        {
+          "title": "720p",
+          "size": "131.6 MB",
+          "urls": [
+            {
+              "title": "OtakuFiles",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNjJ4RG9QZUtMcjNEQUQwWGpubEZNSnZrdFpDOWp4dDR1M2xabFNsaDJMRjRMZlRyTlV2QTFRUjNnRTk2YXJhc2JHM3JaRHRoOGpMdVlMTWc9PQ=="
+            },
+            {
+              "title": "Kraken",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStycjRDWXkrVld4b1dJZCtsaFVBczZxOFpHL2pRPT0="
+            },
+            {
+              "title": "PDrain",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqaUZQTG9EenhqQVM="
+            },
+            {
+              "title": "VidHide",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVNOXlmR3kycHdITDdDWTdxVHd0ZXdqbkJVZVBqcG15QUZ6My81dVJKZjVFMD0="
+            },
+            {
+              "title": "Mega",
+              "url": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUnB2Zmw4bng1S3FleS96MVk5RjJxZzJVNm1HNThDcDIzem9HWnNhMVNrQk9OTTU3NkRhOTcvbmtIRW5GenpLMmdiTHFNL3c9PQ=="
+            }
+          ]
+        }
+      ]
+    },
+    "info": {
+      "credit": "Samehadaku",
+      "encoder": "Samehadaku",
+      "duration": "23 Menit",
+      "type": "TV",
+      "genreList": [
+        {
+          "title": "Action",
+          "genreId": "action",
+          "href": "/otakudesu/genres/action",
+          "otakudesuUrl": "https://otakudesu.cloud/genres/action/"
+        },
+        {
+          "title": "Adventure",
+          "genreId": "adventure",
+          "href": "/otakudesu/genres/adventure",
+          "otakudesuUrl": "https://otakudesu.cloud/genres/adventure/"
+        },
+        {
+          "title": "Fantasy",
+          "genreId": "fantasy",
+          "href": "/otakudesu/genres/fantasy",
+          "otakudesuUrl": "https://otakudesu.cloud/genres/fantasy/"
+        }
+      ],
+      "episodeList": [
+        {
+          "title": 12,
+          "episodeId": "snswdss-eouside-12-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-12-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-12-sub-indo/"
+        },
+        {
+          "title": 11,
+          "episodeId": "snswdss-eouside-11-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-11-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-11-sub-indo/"
+        },
+        {
+          "title": 10,
+          "episodeId": "snswdss-eouside-10-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-10-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-10-sub-indo/"
+        },
+        {
+          "title": 9,
+          "episodeId": "snswdss-eouside-9-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-9-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-9-sub-indo/"
+        },
+        {
+          "title": 8,
+          "episodeId": "snswdss-eouside-8-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-8-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-8-sub-indo/"
+        },
+        {
+          "title": 7,
+          "episodeId": "snswdss-eouside-7-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-7-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-7-sub-indo/"
+        },
+        {
+          "title": 6,
+          "episodeId": "snswdss-eouside-6-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-6-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-6-sub-indo/"
+        },
+        {
+          "title": 5,
+          "episodeId": "snswdss-eouside-5-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-5-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-5-sub-indo/"
+        },
+        {
+          "title": 4,
+          "episodeId": "snswdss-eouside-4-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-4-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-4-sub-indo/"
+        },
+        {
+          "title": 3,
+          "episodeId": "snswdss-eouside-3-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-3-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-3-sub-indo/"
+        },
+        {
+          "title": 2,
+          "episodeId": "snswdss-eouside-2-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-2-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-2-sub-indo/"
+        },
+        {
+          "title": 1,
+          "episodeId": "snswdss-eouside-1-sub-indo",
+          "href": "/otakudesu/episode/snswdss-eouside-1-sub-indo",
+          "otakudesuUrl": "https://otakudesu.cloud/episode/snswdss-eouside-1-sub-indo/"
+        }
+      ]
+    }
+  },
+  "pagination": null
+}
+
+Get : /otakudesu/server/{serverId}
+Response:
+{
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "message": "",
+  "ok": true,
+  "data": {
+    "url": "https://desustream.info/dstream/otakuwatch3/index.php?id=ZUphTzk4OVpiQmNzRmJLT3drNTNwcFg4dXlKYkpNMEt5TkxuRGpGcXpsTT0="
+  },
+  "pagination": null
+}
+*/
